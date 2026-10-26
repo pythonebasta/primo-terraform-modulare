@@ -1,4 +1,4 @@
 resource "aws_s3_bucket" "main" {
-  count = var.env == "prod" ? 1 : 0
-  bucket = "miobucketdidattico-${var.env}"
+  count = var.env == "test" ? 1 : 0
+  bucket = "Pamela-miobucketdidattico-${var.env}"
 }
