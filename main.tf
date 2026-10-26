@@ -6,7 +6,7 @@
 
 module "sg" {
   source = "./modules/sg"
-  vpc_id = "vpc-0666794ad6e434291"
+  vpc_id = "vpc-04fbf1c49af9c1faa"
 }
 
 /* module "ec2" {

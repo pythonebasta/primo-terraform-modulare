@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "aws" {
-  region = var.env == "dev" ? "eu-north-1" : "us-east-1"
+  region = var.env == "preprod" ? "us-east-1" : "eu-north-1"
 }
