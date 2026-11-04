@@ -4,10 +4,10 @@
   subnet_cidr = var.subnet_cidr
 } */
 
-module "sg" {
+/* module "sg" {
   source = "./modules/sg"
   vpc_id = var.vpc_id
-} 
+}  */
 
 /* module "ec2" {
   source            = "./modules/ec2"
@@ -17,7 +17,8 @@ module "sg" {
   security_group_id = module.sg.sg_id
 } */
 
-/* module "s3" {
+module "s3" {
   source            = "./modules/s3"
   env = var.env
-} */
+  bucket = var.bucket
+}
