@@ -8,3 +8,9 @@ variable "bucket" {
     type = string
     default = null
  }
+variable "ingress_ports" {
+  type = map(object({
+    port = number
+    desc = string
+  }))
+}

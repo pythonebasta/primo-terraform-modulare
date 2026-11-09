@@ -17,8 +17,15 @@
   security_group_id = module.sg.sg_id
 } */
 
-module "s3" {
+/* module "s3" {
   source            = "./modules/s3"
   env = var.env
   bucket = var.bucket
-}
+} */
+
+module "sg" {
+  source = "./modules/sg-ports"
+  vpc_id = var.vpc_id
+  ingress_ports = var.ingress_ports
+  env = var.env
+} 
