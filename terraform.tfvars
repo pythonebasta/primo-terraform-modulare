@@ -23,10 +23,10 @@ ingress_ports = {
     port = 8080
     desc = "Porta applicazione custom"
   }
-  postgres = {
+  /* postgres = {
     port = 5432
     desc = "Porta applicazione Postgres"
-  }
+  } */
   mysql = {
     port = 3306
     desc = "Porta applicazione Mysql"
