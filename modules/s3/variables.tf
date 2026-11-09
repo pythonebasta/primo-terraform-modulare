@@ -3,6 +3,6 @@ variable "env" {
 }
 variable "bucket" {
   type = string
-  default = "nuovo bucket 09112026"
+  default = "nuovo-bucket-09112026"
   nullable = false
 }
