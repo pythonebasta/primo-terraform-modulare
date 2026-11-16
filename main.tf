@@ -23,14 +23,18 @@
   bucket = var.bucket
 } */
 
-module "sg" {
+/* module "sg" {
   source = "./modules/sg-ports"
   vpc_id = var.vpc_id
   ingress_ports = var.ingress_ports
   env = var.env
-} 
+}  */
 
 module "new_bucket" {
   source      = "./modules/new_bucket"
   bucket_name = var.bucket_name
+} 
+module "pamelabucket" {
+  source      = "./modules/pamelabucket"
+  pamelabucket_name = var.pamelabucket_name
 } 
