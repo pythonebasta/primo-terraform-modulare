@@ -40,3 +40,5 @@ ingress_ports = {
     desc = "Porta applicazione FastAPI"
   }
 }
+
+bucket_name = "gaetano-2026-bucket-da-importare"

@@ -29,3 +29,8 @@ module "sg" {
   ingress_ports = var.ingress_ports
   env = var.env
 } 
+
+module "s3_import" {
+  source      = "./modules/new_bucket"
+  bucket_name = var.bucket_name
+} 
