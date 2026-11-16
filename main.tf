@@ -34,7 +34,7 @@ module "new_bucket" {
   source      = "./modules/new_bucket"
   bucket_name = var.bucket_name
 } 
-module "pamelabucket" {
+/* module "pamelabucket" {
   source      = "./modules/pamelabucket"
   pamelabucket_name = var.pamelabucket_name
-} 
+}  */
