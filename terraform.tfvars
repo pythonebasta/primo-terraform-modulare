@@ -42,3 +42,4 @@ ingress_ports = {
 }
 
 bucket_name = "gaetano-2026-bucket-da-importare"
+pamelabucket_name = "pamela-2026-bucket-da-importare"
