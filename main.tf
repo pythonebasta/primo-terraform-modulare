@@ -30,7 +30,7 @@ module "sg" {
   env = var.env
 } 
 
-/* module "new_bucket" {
+module "new_bucket" {
   source      = "./modules/new_bucket"
   bucket_name = var.bucket_name
-}  */
+} 
