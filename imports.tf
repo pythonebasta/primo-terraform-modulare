@@ -1,4 +1,4 @@
 import {
-  to = module.new_bucket.aws_s3_bucket.imported_bucket
+  to = module.new_bucket.aws_s3_bucket.bucket_name
   id = "gaetano-2026-bucket-da-importare" # Deve coincidere col nome scelto su AWS
 }
