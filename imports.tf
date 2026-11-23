@@ -1,4 +1,4 @@
-/* import {
-  to = module.pamelabucket.aws_s3_bucket.imported_pamelabucket
-  id = "pamela-newbucket-2026" # Deve coincidere col nome scelto su AWS
-}  */
+import {
+  to = module.ec2_import.aws_instance.this
+  id = "i-056e737f86347d876" # Inserisci qui l'ID dell'istanza da importare
+}
