@@ -43,3 +43,9 @@ ingress_ports = {
 
 bucket_name = "gaetano-2026-bucket-da-importare"
 pamelabucket_name = "pamela-2026-bucket-da-importare"
+
+ec2_import_name               = "EC2 da importare"
+ec2_import_ami_id             = "ami-083dedce92603a2ad"
+ec2_import_instance_type      = "t3.micro"
+ec2_import_subnet_id          = "subnet-0ba6648a91d2e6d8c"
+ec2_import_security_group_ids = ["sg-077c46a8d6ebfd9ab"]
