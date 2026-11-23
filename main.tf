@@ -39,7 +39,7 @@ module "new_bucket" {
   pamelabucket_name = var.pamelabucket_name
 }  */
 
-module "ec2_import" {
+/* module "ec2_import" {
   source = "./modules/ec2_import"
 
   instance_name      = var.ec2_import_name
@@ -47,4 +47,4 @@ module "ec2_import" {
   instance_type      = var.ec2_import_instance_type
   subnet_id          = var.ec2_import_subnet_id
   security_group_ids = var.ec2_import_security_group_ids
-} 
+}  */
